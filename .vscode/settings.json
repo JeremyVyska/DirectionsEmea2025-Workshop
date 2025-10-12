@@ -1,0 +1,7 @@
+{
+  "al.enableCodeActions": true,
+  "al.enableCodeAnalysis": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000
+}

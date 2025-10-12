@@ -1,0 +1,31 @@
+{
+  "id": "4beb0468-0ebf-424c-856d-f341c7d5edf9",
+  "name": "BookingCore",
+  "publisher": "Directions EMEA 2025",
+  "version": "1.0.0.0",
+  "brief": "Base data model and interfaces for AmuseYou booking system",
+  "description": "Provides core tables, enums, and interfaces for equipment booking management",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50099
+    }
+  ],
+  "features": [
+    "NoImplicitWith"
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
+}

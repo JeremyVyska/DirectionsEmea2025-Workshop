@@ -1,0 +1,76 @@
+{
+  "name": "AmuseYou Workshop Ruleset",
+  "description": "Code analysis rules for workshop exercises",
+  "rules": [
+    {
+      "id": "AA0001",
+      "action": "Warning",
+      "justification": "There must be exactly one space character on each side of a binary operator such as := + - AND OR =."
+    },
+    {
+      "id": "AA0005",
+      "action": "Warning",
+      "justification": "Only use BEGIN..END to enclose compound statements."
+    },
+    {
+      "id": "AA0008",
+      "action": "Warning",
+      "justification": "Function calls should have parenthesis even if they do not have any parameters."
+    },
+    {
+      "id": "AA0073",
+      "action": "Warning",
+      "justification": "The name of temporary variable must be prefixed with Temp."
+    },
+    {
+      "id": "AA0074",
+      "action": "Warning",
+      "justification": "TextConst and Label variable names should have a suffix (Msg, Tok, Err, Qst, Lbl, Txt)."
+    },
+    {
+      "id": "AA0136",
+      "action": "Warning",
+      "justification": "Get(), FindFirst() and FindLast() must be used with if then."
+    },
+    {
+      "id": "AA0137",
+      "action": "Warning",
+      "justification": "Do not use CRLF in property values."
+    },
+    {
+      "id": "AA0139",
+      "action": "Warning",
+      "justification": "Do not assign a text to a target with smaller size."
+    },
+    {
+      "id": "AA0161",
+      "action": "Warning",
+      "justification": "Only use ASSERTERROR in test codeunits."
+    },
+    {
+      "id": "AA0194",
+      "action": "Warning",
+      "justification": "Only write actions that have an effect."
+    },
+    {
+      "id": "AA0198",
+      "action": "Warning",
+      "justification": "Do not use identical names for local and global variables."
+    },
+    {
+      "id": "AA0205",
+      "action": "Warning",
+      "justification": "Variables must be initialized before they are used."
+    },
+    {
+      "id": "AA0206",
+      "action": "Warning",
+      "justification": "The value assigned to a variable must be used."
+    },
+    {
+      "id": "AA0462",
+      "action": "Warning",
+      "justification": "The CalcDate should only be used with DataFormula variables. Alternatively the string should be enclosed using the <> symbols."
+    }
+  ]
+}

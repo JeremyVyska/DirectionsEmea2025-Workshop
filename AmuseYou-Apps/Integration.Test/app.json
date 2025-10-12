@@ -1,0 +1,44 @@
+{
+  "id": "ea0db4ad-8360-4cc6-ae50-3055720b3356",
+  "name": "Integration.Test",
+  "publisher": "Directions EMEA 2025",
+  "version": "1.0.0.0",
+  "brief": "End-to-end integration tests",
+  "description": "Full workflow tests across BookingCore and RentalOperations layers",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "4beb0468-0ebf-424c-856d-f341c7d5edf9",
+      "name": "BookingCore",
+      "publisher": "Directions EMEA 2025",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "eb6f285d-6f6e-4351-b9f3-bbf3c9d47491",
+      "name": "RentalOperations",
+      "publisher": "Directions EMEA 2025",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50400,
+      "to": 50499
+    }
+  ],
+  "features": [
+    "NoImplicitWith"
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Work/conf/directionsemea2025/bc-aiknowledge-test/**)",
+      "Read(//c/Work/brc/Apps/BRCRisk/BRCRisk/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,47 @@
+# ===============================
+# Business Central AL Extension
+# ===============================
+
+
+# AL extension symbols and cache folders (ignore in all subfolders)
+**/.alpackages/
+**/.alcache/
+**/.snapshots/
+**/.altemplates
+**/rad.json
+
+
+# Compiled extension app files (should not be committed)
+**/*.app
+
+
+# Auto-generated translation base files
+**/*.g.xlf
+
+
+# License files (should not be committed)
+**/*.flf
+**/*.bclicense
+
+
+# User-specific launch configuration
+**/launch.json
+
+
+# ===============================
+
+# AL Test Runner Extension
+# ===============================
+
+**/.altestrunner
+**/.output/
+**/TestResults.xml
+
+# ===============================
+
+# Paket Dependency Manager
+# ===============================
+
+**/packages/
+**/paket-files/
+**/.paket/
