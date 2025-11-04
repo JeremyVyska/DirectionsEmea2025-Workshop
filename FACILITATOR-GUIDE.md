@@ -42,31 +42,7 @@ See you at the workshop!
 - [ ] BC sandbox environment for demos (or use local Docker)
 - [ ] Workshop repository cloned
 - [ ] Demo scenarios tested on all 3 stages
-- [ ] Solution branches created (stage1-solution, stage2-solution, stage3-solution)
 - [ ] Backup plan if BC sandbox has issues (screenshots, pre-recorded demo)
-
-**Create solution branches:**
-```bash
-# Complete Stage 1 exercise implementation
-git checkout -b stage1-solution
-# [implement maintenance status with autocomplete gaps]
-git add . && git commit -m "Stage 1 solution: autocomplete baseline"
-
-# Complete Stage 2 exercise (improved version)
-git checkout -b stage2-solution
-# [implement with planning, better quality]
-git add . && git commit -m "Stage 2 solution: agentic planning"
-
-# Complete Stage 3 exercise (full agentic)
-git checkout -b stage3-solution
-# [implement with cross-layer + knowledge + testing]
-git add . && git commit -m "Stage 3 solution: complete agentic"
-
-# Create starting points for each stage
-git branch stage1-start main
-git branch stage2-start stage1-solution
-git branch stage3-start stage2-solution
-```
 
 ### 3. Presentation Materials
 
@@ -234,7 +210,7 @@ git branch stage3-start stage2-solution
 **"I'm stuck on the exercise"**
 - Redirect to stage README.md and exercise.md
 - Pair them with someone who's progressing
-- Show solution branch if they're completely blocked
+- Show them your demo implementation if needed
 
 **"Setup isn't working"**
 - Have Codespace backup ready
@@ -277,10 +253,10 @@ git branch stage3-start stage2-solution
 ### Immediate Follow-up (Same Day)
 
 **Send to participants:**
-- Links to solution branches
 - Recording (if recorded)
 - Feedback survey link
 - Reminder about FACILITATOR-GUIDE.md for self-paced review
+- Encourage them to share their unique implementations
 
 ### Week After Workshop
 
@@ -413,6 +389,7 @@ A: Perfect! Run through all exercises yourself first, document your own "aha mom
 - Note what worked / what didn't
 - Update exercise.md files based on participant feedback
 - Refine demo scripts for clarity
+- Collect interesting AI-generated variations from participants
 - Add new troubleshooting scenarios to TROUBLESHOOTING.md
 
 **Share improvements:**
@@ -425,7 +402,6 @@ A: Perfect! Run through all exercises yourself first, document your own "aha mom
 ## You're Ready!
 
 ✅ Pre-workshop email sent
-✅ Solution branches created
 ✅ Demo environment tested
 ✅ Backup plan ready
 ✅ Read all demo scripts

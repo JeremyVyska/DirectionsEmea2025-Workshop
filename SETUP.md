@@ -91,12 +91,6 @@ Create `.vscode/launch.json` with your BC sandbox connection details.
 3. Should compile and launch BC web client
 4. If this doesn't work, fix your BC connection before the workshop
 
-### 4. Checkout Starting Branch
-
-```bash
-git checkout stage1-start
-```
-
 ---
 
 ## Optional (But Highly Recommended): BC Code Intelligence MCP
@@ -151,7 +145,6 @@ Before workshop starts, verify:
 - [ ] Repository cloned locally
 - [ ] BC sandbox connection configured
 - [ ] Can compile AL code (F5 launches BC client)
-- [ ] Checked out `stage1-start` branch
 - [ ] (Recommended) BC Code Intelligence MCP installed
 
 ---
@@ -161,15 +154,12 @@ Before workshop starts, verify:
 Once setup complete, you'll work through 3 stages:
 
 ### Stage 1: Baseline (Autocomplete Thinking)
-- Branch: `stage1-start` → `stage1-solution`
 - Create baseline code with realistic anti-patterns using autocomplete
 
 ### Stage 2: Basic AI Review (Generic Copilot)
-- Branch: Stage 1 solution code (no branch change)
 - Ask generic AI to review code - observe it catches common issues but misses BC patterns
 
 ### Stage 3: Knowledge-Enhanced Review (MCP Specialists)
-- Branch: Stage 1 solution code (no branch change)
 - Ask MCP specialists to review code - observe significantly higher catch rate
 - Demonstrates substantial improvement with knowledge engineering
 

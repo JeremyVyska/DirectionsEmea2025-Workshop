@@ -5,7 +5,6 @@
 
 ## Setup
 
-- Start from clean main branch
 - Have Booking.Table.al file ready
 - AI assistant visible (Copilot Chat, Claude Code, etc.)
 - Enthusiastic energy - this should feel magical!

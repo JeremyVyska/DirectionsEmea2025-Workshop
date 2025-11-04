@@ -89,8 +89,6 @@ Plus 3 Test Apps:
 
 **The catch:** Working code isn't always production-ready code. We'll explore that in Stage 2!
 
-**Branch:** Start from main/clean state
-
 📖 [Stage 1 Details](Stage1-Baseline/README.md)
 
 ---
@@ -106,8 +104,6 @@ Plus 3 Test Apps:
 - ❌ No cross-layer analysis or performance reasoning
 
 **Demonstrates:** File-based grounding has significant limitations with domain-specific knowledge
-
-**Branch:** Stage 1 solution code
 
 📖 [Stage 2 Details](Stage2-Planning/README.md)
 
@@ -125,8 +121,6 @@ Plus 3 Test Apps:
 - ✅ Cross-layer performance analysis
 
 **Demonstrates:** Substantial improvement with knowledge-enhanced agentic review across all quality dimensions
-
-**Branch:** Stage 1 solution code
 
 📖 [Stage 3 Details](Stage3-Complete/README.md)
 
@@ -199,12 +193,8 @@ By the end of this workshop, you'll be able to:
    cd DirectionsEmea2025-Workshop/workshop
    ```
 2. **Complete setup:** [SETUP.md](SETUP.md)
-3. **Checkout starting branch:**
-   ```bash
-   git checkout stage1-start
-   ```
-4. **Read Stage 1 README:** [Stage1-Baseline/README.md](Stage1-Baseline/README.md)
-5. **Wait for workshop to begin**
+3. **Read Stage 1 README:** [Stage1-Baseline/README.md](Stage1-Baseline/README.md)
+4. **Wait for workshop to begin**
 
 ---
 
