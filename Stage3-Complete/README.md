@@ -51,7 +51,7 @@ No problem! Reference the `.al-guidelines` folder:
 Review knowledge files in .al-guidelines/domains/dean-debug/ then analyze this file for performance issues
 ```
 
-Both approaches work - MCP just automates the knowledge retrieval.
+Both approaches work - this way just relies on the agent to understand how to apply the knowledge.
 
 ## Your Task: Test BC Specialists
 
@@ -64,6 +64,8 @@ Start with one specialist that interests you:
 - **Roger** if you care about code quality
 - **Uma** if you care about user experience
 - **Jordan** if you care about extensibility
+
+Or ask `Who is on the bc team?` to get a list!
 
 ### Step 2: Ask for a Review
 
