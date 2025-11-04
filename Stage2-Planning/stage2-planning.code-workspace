@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "name": "Stage 2 - Planning",
+      "path": "."
+    },
+    {
+      "name": "AmuseYou Apps",
+      "path": "../AmuseYou-Apps"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "name": "Stage 3 - Complete",
+      "path": "."
+    },
+    {
+      "name": "AmuseYou Apps",
+      "path": "../AmuseYou-Apps"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true
+    },
+    "github.copilot.chat.codeGeneration.instructions": [
+      {
+        "file": ".al-guidelines"
+      }
+    ]
+  }
+}
