@@ -4,10 +4,15 @@ using AmuseYou.BookingCore;
 
 page 50203 "Booking Card"
 {
+    AboutText = 'View and manage individual bookings, including dates, amount, and status.';
+    AboutTitle = 'About Booking Card';
     ApplicationArea = All;
     Caption = 'Booking Card';
+    Extensible = true;
+    HelpLink = 'https://github.com/finnpedersenkazes/DirectionsEmea2025-Workshop';
     PageType = Card;
     SourceTable = Booking;
+    UsageCategory = Documents;
 
     layout
     {

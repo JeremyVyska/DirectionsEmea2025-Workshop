@@ -4,10 +4,15 @@ using AmuseYou.BookingCore;
 
 page 50201 "Equipment Card"
 {
+    AboutText = 'Manage master data for equipment, including type, rate, and status.';
+    AboutTitle = 'About Equipment Card';
     ApplicationArea = All;
     Caption = 'Equipment Card';
+    Extensible = true;
+    HelpLink = 'https://github.com/finnpedersenkazes/DirectionsEmea2025-Workshop';
     PageType = Card;
     SourceTable = Equipment;
+    UsageCategory = Administration;
 
     layout
     {
