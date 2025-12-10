@@ -33,6 +33,10 @@ page 50201 "Equipment Card"
                 {
                     ToolTip = 'Specifies the daily rental rate.';
                 }
+                field(Status; Rec.Status)
+                {
+                    ToolTip = 'Shows the current equipment status.';
+                }
                 field(Blocked; Rec.Blocked)
                 {
                     ToolTip = 'Specifies if the equipment is blocked from booking.';

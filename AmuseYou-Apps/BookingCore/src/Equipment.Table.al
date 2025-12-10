@@ -38,6 +38,11 @@ table 50000 Equipment
             Caption = 'Last Maintenance Date';
             DataClassification = CustomerContent;
         }
+        field(7; Status; Enum EquipmentStatus)
+        {
+            Caption = 'Status';
+            DataClassification = CustomerContent;
+        }
     }
 
     keys

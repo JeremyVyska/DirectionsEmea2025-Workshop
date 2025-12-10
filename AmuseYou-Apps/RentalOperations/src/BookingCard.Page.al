@@ -25,6 +25,10 @@ page 50203 "Booking Card"
             {
                 ToolTip = 'Specifies the customer name.';
             }
+            field("Customer Email"; Rec."Customer Email")
+            {
+                ToolTip = 'Specifies the customer email address.';
+            }
             field("Equipment No."; Rec."Equipment No.")
             {
                 ToolTip = 'Specifies the equipment number.';
