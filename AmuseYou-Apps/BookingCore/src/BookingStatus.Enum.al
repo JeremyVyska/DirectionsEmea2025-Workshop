@@ -1,7 +1,7 @@
 namespace AmuseYou.BookingCore;
 
 /// <summary>
-/// Booking Status: Pending (<24 hours), Confirmed (>24 hours), Active (in progress)
+/// Booking Status: Pending (less than 24 hours), Confirmed (more than 24 hours), Active (in progress)
 /// </summary>
 enum 50001 BookingStatus
 {

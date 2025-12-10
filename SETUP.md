@@ -138,14 +138,14 @@ or:
 
 Before workshop starts, verify:
 
-- [ ] VS Code installed with AL Language extension
-- [ ] GitHub Copilot + Copilot Chat extensions installed and signed in
-- [ ] Node.js installed (`node --version` works)
-- [ ] Git installed and configured
-- [ ] Repository cloned locally
-- [ ] BC sandbox connection configured
-- [ ] Can compile AL code (F5 launches BC client)
-- [ ] (Recommended) BC Code Intelligence MCP installed
+- [x] VS Code installed with AL Language extension
+- [x] GitHub Copilot + Copilot Chat extensions installed and signed in
+- [x] Node.js installed (`node --version` works)
+- [x] Git installed and configured
+- [x] Repository cloned locally
+- [x] BC sandbox connection configured
+- [x] Can compile AL code (F5 launches BC client)
+- [x] (Recommended) BC Code Intelligence MCP installed
 
 ---
 

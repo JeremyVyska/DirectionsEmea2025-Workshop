@@ -1,3 +1,6 @@
 [submodule ".al-guidelines"]
 	path = .al-guidelines
 	url = https://github.com/JeremyVyska/bc-code-intelligence.git
+[submodule ".BlueCircle360Certified"]
+	path = .BlueCircle360Certified
+	url = https://github.com/finnpedersenkazes/BlueCircle360Certified
