@@ -7,23 +7,27 @@ enum 50001 BookingStatus
 {
     Extensible = true;
 
-    value(0; Pending)
+    value(0; " ")
+    {
+        Caption = ' ', Locked = true;
+    }
+    value(1; Pending)
     {
         Caption = 'Pending';
     }
-    value(1; Confirmed)
+    value(2; Confirmed)
     {
         Caption = 'Confirmed';
     }
-    value(2; InProgress)
+    value(3; InProgress)
     {
         Caption = 'In Progress';
     }
-    value(3; Completed)
+    value(4; Completed)
     {
         Caption = 'Completed';
     }
-    value(4; Cancelled)
+    value(5; Cancelled)
     {
         Caption = 'Cancelled';
     }

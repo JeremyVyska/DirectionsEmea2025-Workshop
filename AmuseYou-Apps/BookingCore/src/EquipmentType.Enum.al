@@ -4,15 +4,19 @@ enum 50000 EquipmentType
 {
     Extensible = true;
 
-    value(0; Unspecified)
+    value(0; " ")
+    {
+        Caption = ' ', Locked = true;
+    }
+    value(1; Unspecified)
     {
         Caption = 'Unspecified';
     }
-    value(1; BounceUnit)
+    value(2; BounceUnit)
     {
         Caption = 'Bounce Unit';
     }
-    value(2; GoKartExperience)
+    value(3; GoKartExperience)
     {
         Caption = 'Go-Kart Experience';
     }
