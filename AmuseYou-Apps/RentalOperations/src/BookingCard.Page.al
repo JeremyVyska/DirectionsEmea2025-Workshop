@@ -4,10 +4,10 @@ using AmuseYou.BookingCore;
 
 page 50203 "Booking Card"
 {
-    PageType = Card;
     ApplicationArea = All;
-    SourceTable = Booking;
     Caption = 'Booking Card';
+    PageType = Card;
+    SourceTable = Booking;
 
     layout
     {
@@ -15,35 +15,27 @@ page 50203 "Booking Card"
         {
             field("Booking No."; Rec."Booking No.")
             {
-                ToolTip = 'Specifies the booking number.';
             }
             field("Total Amount"; Rec."Total Amount")
             {
-                ToolTip = 'Specifies the total rental amount.';
             }
             field("Customer Name"; Rec."Customer Name")
             {
-                ToolTip = 'Specifies the customer name.';
             }
             field("Customer Email"; Rec."Customer Email")
             {
-                ToolTip = 'Specifies the customer email address.';
             }
             field("Equipment No."; Rec."Equipment No.")
             {
-                ToolTip = 'Specifies the equipment number.';
             }
             field("Start Date"; Rec."Start Date")
             {
-                ToolTip = 'Specifies the rental start date.';
             }
             field("End Date"; Rec."End Date")
             {
-                ToolTip = 'Specifies the rental end date.';
             }
             field(Status; Rec.Status)
             {
-                ToolTip = 'Specifies the booking status.';
             }
         }
     }
