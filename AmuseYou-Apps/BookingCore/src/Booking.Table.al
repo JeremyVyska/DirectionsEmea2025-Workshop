@@ -31,6 +31,7 @@ table 50001 Booking
             trigger OnValidate()
             begin
                 "Days Until Start" := "Start Date" - Today;
+                "Last Cancel Date" := "Start Date" - 3;
             end;
         }
         field(5; "End Date"; Date)
@@ -53,6 +54,12 @@ table 50001 Booking
         {
             Caption = 'Days Until Start';
             DataClassification = CustomerContent;
+        }
+        field(8; "Last Cancel Date"; Date)
+        {
+            Caption = 'Last Cancel Date';
+            DataClassification = CustomerContent;
+            Editable = false;
         }
     }
 

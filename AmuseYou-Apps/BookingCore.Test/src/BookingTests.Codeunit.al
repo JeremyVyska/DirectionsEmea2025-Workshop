@@ -44,6 +44,32 @@ codeunit 50101 "Booking Tests"
         Assert.AreEqual(BookingStatus::Confirmed, Booking.Status, 'Booking should be confirmed');
     end;
 
+    [Test]
+    procedure TestLastCancelDateCalculation()
+    var
+        Booking: Record Booking;
+        StartDate: Date;
+        ExpectedCancelDate: Date;
+    begin
+        // [GIVEN] A start date
+        StartDate := Today() + 10;
+        ExpectedCancelDate := StartDate - 3;
+
+        // [WHEN] Creating a booking with a start date
+        Booking.Init();
+        Booking."Booking No." := 'BOOK003';
+        Booking."Equipment No." := 'TEST001';
+        Booking."Customer Name" := 'Test Customer';
+        Booking."Start Date" := StartDate;
+        Booking."End Date" := StartDate + 2;
+        Booking.Status := BookingStatus::Pending;
+        Booking.Insert();
+
+        // [THEN] Last Cancel Date should be Start Date minus 3 days
+        Booking.Get('BOOK003');
+        Assert.AreEqual(ExpectedCancelDate, Booking."Last Cancel Date", 'Last Cancel Date should be Start Date minus 3 days');
+    end;
+
     local procedure CreateTestBooking(var Booking: Record Booking; BookingNo: Code[20]; Status: Enum BookingStatus)
     begin
         Booking.Init();

@@ -37,6 +37,10 @@ page 50202 "Booking List"
                 {
                     ToolTip = 'Specifies the rental end date.';
                 }
+                field("Last Cancel Date"; Rec."Last Cancel Date")
+                {
+                    ToolTip = 'Specifies the last date the customer can cancel and receive a refund.';
+                }
                 field(Status; Rec.Status)
                 {
                     ToolTip = 'Specifies the booking status.';
